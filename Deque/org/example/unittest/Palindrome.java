@@ -1,3 +1,5 @@
+package org.example.unittest;
+
 public class Palindrome<T> {
     public boolean isPalindrome(Deque<T> dq){
         Deque<T> dq2 = new Deque<T>(dq);
